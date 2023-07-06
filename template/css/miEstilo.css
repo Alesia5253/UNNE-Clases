@@ -1,0 +1,40 @@
+#header .logo img {
+  padding: 0;
+  margin: -7px 0;
+  max-height: 55px;
+}
+
+#header .logo2 img {
+    padding: 0;
+    margin: -15px 0;
+    max-height: 65px;
+  }
+
+  #intro {
+    width: 100%;
+    position: relative;
+    background-image: url('../img/background-intro.avif');
+    /*background: linear-gradient(190deg, #9E69C5, 70%, #E71964), linear-gradient(127deg, #1E1E1E, 20%, #50535c, #E9E7E8); */
+    background-size: cover; 
+    padding: 200px 0 120px 0;
+  }
+
+  #intro .intro-info .btn-services {
+    font-family: 'Encode Sans Normal', 'Encode Sans Bold';
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 0 20px 20px 0;
+    color: #fc5a50;
+  }
+
+  /* Section with background (Servicios)
+--------------------------------*/
+
+.section-bg {
+  background: #dee3e6;
+}
