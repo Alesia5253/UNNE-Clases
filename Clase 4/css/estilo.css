@@ -1,0 +1,45 @@
+/* Asi se comenta en CSS */
+/* Primer CSS en curso FrontEnd */
+
+
+/* Selector de tipo universal, se aplica a todo */
+* {
+    background: linear-gradient(120deg, CornSilk, 10%, NavajoWhite, 65%, Sienna) ; /* genera el color del fondo de la pagina */
+    color: #500c0c; /* */
+    font-family: "Open Sans", sans-serif; /* */
+  }
+  
+/* Selector tipo etiqueta, define propiedades para un tipo de etiqueta, se debe referenciar al mencionar la etiqueta, en este caso la etiqueta <a> que son hipervinculos */
+  a {
+    color: #007bff; /* */
+    text-decoration: none; /* */
+    font-size: larger;
+    margin: 15px;
+}
+
+/* Selector de tipo identificador (Id), no se pueden repetir en el documento */
+#divcabecera {
+    color:rgb(5, 19, 94);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Selector de tipo clase, funcionamiento similar que los tipo identificador pero puede haber varios en el mismo documento */
+.divpie {
+    color: black;
+    background-color: rgb(112, 190, 246);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#divbarranavegacion {
+    background-color: bisque;
+}
+
+/*--------------------------------------------------------------
+# Perzonalizando nuestro ID de HTML
+
+
+#institucional {
+    color: #444;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  --------------------------------------------------------------*/
